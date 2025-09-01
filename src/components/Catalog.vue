@@ -1,5 +1,5 @@
 <template>
-  <div class="catalog">
+  <div class="catalog p-6">
     <h2 class="text-2xl font-bold mb-6">Product Catalog</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div class="bg-white rounded-lg shadow-md p-6">
@@ -16,6 +16,5 @@
 
 <style scoped>
 .catalog {
-  @apply p-6;
 }
 </style>
